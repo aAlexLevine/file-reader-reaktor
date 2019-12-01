@@ -28,7 +28,7 @@ const IntroNotes = () => (
         <div>Mock Data</div>
       </a>
       <a
-        href="https://gist.github.com/lauripiispanen/29735158335170c27297422a22b48caa"
+        href="https://github.com/aAlexLevine/file-reader-reaktor"
         target="_blank"
         rel="noopener noreferrer"
       >
