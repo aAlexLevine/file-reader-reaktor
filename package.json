@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -d --watch",
-    "react-dev": "npm run build && npm run hot",
-    "start": "webpack-dev-server --config webpack.config.js ----history-api-fallback",
+    "build": "webpack -d",
+    "react-dev": "webpack-dev-server --config webpack.config.js ----history-api-fallback",
+    "start": "node server/index.js",
     "lint": "eslint"
   },
   "author": "aalexlevine",
@@ -33,6 +33,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hot-loader": "^4.12.18",
