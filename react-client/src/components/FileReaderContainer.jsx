@@ -37,7 +37,7 @@ class FileReaderContainer extends React.Component {
   }
 
   getLocalFile() {
-    fetch('../../../status.real')
+    fetch('/status.real')
       .then(mockData => mockData.blob())
       .then(blob => this.handleFileUpload(null, blob));
   }
